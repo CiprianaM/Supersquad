@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import 'App.css';
+import './App.css';
 
 class App extends Component {
   constructor() {
@@ -8,7 +8,11 @@ class App extends Component {
   }
   render() {
     return (
-      <div>This is the div</div>
+      <div>
+        <h2>
+        SuperSquad
+        </h2>
+      </div>
     )
   }
 }
