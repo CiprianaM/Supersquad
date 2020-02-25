@@ -6,3 +6,5 @@ function characters (state = characters_json, action) {
       return state;
   }
 }
+
+export default characters;
