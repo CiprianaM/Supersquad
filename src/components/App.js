@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import CharacterList from './CharacterList';
 
 import './App.css';
 
@@ -9,6 +10,7 @@ class App extends Component {
         <h2>
         SuperSquad
         </h2>
+        <CharacterList />
       </div>
     )
   }
